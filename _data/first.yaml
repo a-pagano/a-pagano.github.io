@@ -1,0 +1,4 @@
+- name: google
+  url: 'https://google.com'
+- name: yahoo
+  url: 'https://yahoo.fr'
