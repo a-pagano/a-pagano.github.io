@@ -1,18 +1,6 @@
 ---
-layout: default
-title: Google Sheets to Github Website - Links
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
 ---
-
-<!-- Pulls from _data links -->
-{% assign links = site.data.links %}
-{% assign links = links | sort:"Name" %}
-
-<h3>Links</h3>
-<table width="100%">
-{% for link in links %}
-  <tr>
-    <td><strong>{{ link.name }}</strong></td>
-    <td width="25%">{{ link.url }}</td>
-  </tr>
-{% endfor %}
-</table>
