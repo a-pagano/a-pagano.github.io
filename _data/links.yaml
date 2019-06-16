@@ -2,3 +2,5 @@
   url: 'https://google.com'
 - name: yahoo
   url: 'https://yahoo.fr'
+- name: 'wikipedia '
+  url: 'https://wikipedia.org'
